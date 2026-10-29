@@ -1,0 +1,12 @@
+.header-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 100px;
+	top:-52px;
+}
+.footer-section {
+    padding-left: 32px;
+    position: relative;
+}

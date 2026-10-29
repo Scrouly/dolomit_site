@@ -1,0 +1,161 @@
+.wrapper-rukovodstvo{
+    width: 1776px;
+    margin: 0 auto;
+
+}
+
+.wrapper-rukovodstvo h1.rukovodstvo-h{
+margin: 24px 0 32px 0; 
+}
+
+.wrapper-rukovodstvo.block{
+	display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.rukovodstvo_one {
+    max-width: 100%;
+    height: 328px;
+    display: flex;
+    gap: 32px;
+    padding: 24px;
+
+    border: 1px solid #323232;
+    border-radius: 4px;
+}
+
+.rukovodstvo_one img {
+    width: 245px;
+    height: 280px;
+}
+.rukovodstvo_info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.rukovodstvo_one div h4{
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: 40px;
+
+}
+
+.rukovodstvo_info  .body_0{
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+}
+
+.rukovodstvo_info .management_tel.body_1{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px; 
+letter-spacing: 0.5px;
+}
+
+.management_tel::before {
+    margin: auto 4px;
+}
+
+@media screen and (max-width: 1919px) {
+
+.wrapper-rukovodstvo{
+  width: calc(100% - 127px);
+color:#FFF;
+}
+
+
+}
+
+@media screen and (max-width: 1439px) {
+
+.wrapper-rukovodstvo{
+    width: calc(100% - 31px);
+}
+
+.rukovodstvo_one img {
+width: 175px;
+height: 199px;
+}
+
+
+.rukovodstvo_one div h4{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+
+}
+
+.rukovodstvo_one {
+	height: 231px;
+    gap: 16px;
+	padding: 16px;
+}
+
+.rukovodstvo_info  .body_0{
+
+font-size: 14px;
+font-weight: 400;
+line-height: 20px; 
+letter-spacing: 0.25px;
+}
+
+.rukovodstvo_info .management_tel.body_1{
+font-size: 16px;
+font-weight: 300;
+line-height: 24px; 
+letter-spacing: 0.5px;
+}
+
+
+
+
+
+}
+@media screen and (max-width: 904px) {
+
+.wrapper-rukovodstvo{
+    width: calc(100% - 47px);
+    }
+
+.wrapper-rukovodstvo h1.rukovodstvo-h {
+    margin: 24px 0 26px 0;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; 
+letter-spacing: 0.15px;
+}
+
+
+}
+
+@media screen and (max-width: 599px) {
+
+.wrapper-rukovodstvo{
+    width: 91.115%;
+}
+.rukovodstvo_one img {
+   width: 157px;
+height: 179px;
+}
+
+.rukovodstvo_one {
+	height: max-content;
+	gap: 8px;
+    flex-direction: column;
+    align-items: center;
+	padding: 16px 24px;
+}
+
+}

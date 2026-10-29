@@ -1,0 +1,47 @@
+# === 1. База данных и бэкапы ===
+/full_database.sql
+/bitrix/backup/
+*.sql
+*.sql.1
+*.sql.2
+*.tar.gz
+*.tar.gz.*
+
+# === 2. Системные файлы и кэш 1С-Битрикс ===
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
+/bitrix/tmp/
+/upload/*
+!/upload/.placeholder
+
+# === 3. Окружение, Docker и локальные конфиги ===
+# Если хочешь скрыть локальные пароли БД от чужих глаз
+/bitrix/.settings_extra.php
+.env
+
+# Служебная папка контейнера MySQL (чтобы не закидывать гигабайты БД в репо)
+mysql_data/
+
+# === 4. Операционная система и редакторы ===
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE и редактора кода (VS Code, PhpStorm)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+# === 5. Секреты (не коммитить) ===
+/bitrix/.settings.php
+/bitrix/php_interface/dbconn.php.local
+/api/*.local.php
+NEW_TOKENS_DO_NOT_COMMIT.txt

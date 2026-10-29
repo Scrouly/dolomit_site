@@ -1,0 +1,386 @@
+
+.tab {
+display: flex;
+width: 420px;
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+.tab button {
+  width: 100% ;
+	display: flex;
+	padding: 8px 16px;
+	align-items: center;
+	gap: 8px;
+	align-self: stretch;
+
+	border: none;
+    outline: none;
+    background-color: inherit;
+
+	color:#FFF;
+   cursor: pointer;
+   transition: all 0.5s linear;
+   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.tab button{
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; 
+text-align: start;
+}
+
+
+
+.tab button:hover {
+  border-bottom: 2px solid #FF9900;
+}
+
+.tab button.active {
+ border-bottom: 2px solid #FF9900;
+}
+
+
+
+.tabcontent {
+  	width: 1324px;
+	display: flex;
+    flex-direction: column;
+    gap: 32px;
+    transition: all 0.5s linear;
+	opacity: 0;
+}
+
+.post-structure-company{
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+
+}
+
+
+
+
+
+
+
+.head_department{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 32px;
+padding: 24px;
+width: 100%;
+
+border: 1px solid #79747E;
+border-radius: 4px;
+}
+
+.head_department h6{
+	width: 1072px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+	color: #FFFFFF;
+	margin:0;
+	padding:0;
+}
+
+
+
+
+.worker_tel{
+width: 100%;
+display: flex;
+gap: 4px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+white-space: nowrap;
+}
+
+.worker_tel::before {
+    content: url(../dolomit_structure/images/call-wb.svg);
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+	width: 100%;
+}
+
+.header-work{
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+
+
+.more_worker{
+  display: flex;
+  flex-direction: column;
+}
+
+.one_worker{
+display: flex;
+width: 100%;
+padding: 8px 0px;
+align-items: center;
+gap: 32px;
+
+border-bottom: 1px solid #79747E;
+
+}
+
+.telephone_group{
+width: 220px;
+display: flex;
+flex-direction: column;
+gap: 4px;
+
+}
+
+.name_work{
+width: 1072px;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+/*new*/
+
+.wrapper-structure {
+    width: 1776px;
+    margin: 0 auto;
+}
+.wrapper-structure.structure-company{
+	display: flex;
+    gap: 32px;
+    flex-direction: row;
+}
+
+.wrapper-structure.header-struct h1 {
+ margin:24px 0 32px 0;
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 56px;
+
+}
+
+
+
+
+@media screen and (max-width: 1919px) {
+
+ .wrapper-structure {
+        width: calc(100% - 127px);
+        color: #FFF;
+    }
+
+.wrapper-structure.header-struct h1 {
+ margin:32px 0 24px 0;
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+}
+
+.tab {
+    width: 31.713%;
+}
+
+.tabcontent {
+    width: 65.818%;
+    gap: 24px;
+}
+
+.head_department h6 {
+    width: 69.5%;
+}
+.one_worker {
+	justify-content: space-between;
+}
+.name_work {
+ width: 70.46%;
+}
+
+
+
+
+
+
+}/*1440*/
+
+
+@media screen and (max-width: 1439px) {
+
+    .wrapper-structure {
+        width: calc(100% - 31px);
+    }
+
+	.wrapper-structure.header-struct h1 {
+		font-family: Inter;
+		font-size: 34px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 40px;
+		}
+.wrapper-structure.structure-company {
+   gap: 24px;
+}
+
+.telephone_group {
+    width: 190px;
+	}
+.worker_tel {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+
+.tabcontent {
+    width: 66.49%;
+    gap: 16px;
+}
+.tab {
+    width: 31.888%;
+}
+.tab button {
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.25px;
+display: flex;
+padding: 8px 4px;
+align-items: center;
+gap: 8px;
+}
+
+.head_department h6 {
+width: 100%;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.1px;
+}
+
+.head_department {
+    display: flex;
+	flex-direction: column;
+
+	gap:0px;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 8px;
+}
+
+.head_department .telephone_group{
+width: 100%;
+padding: 4px 0px;
+
+}
+
+.header-work{
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.15px;
+}
+
+.post-structure-company {
+    display:flex;
+    gap: 16px;
+}
+.name_work {
+  color: #C9C5CA;
+
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px; 
+	letter-spacing: 0.1px;
+}
+
+.name_work {
+    width: 61.444%;
+}
+.one_worker {
+display: flex;
+padding: 0px 4px;
+align-items: flex-start;
+gap: 24px;
+}
+
+
+}/*905*/
+
+@media screen and (max-width: 904px) {
+   .wrapper-structure {
+        width: calc(100% - 47px);
+    }
+
+	.wrapper-structure.header-struct h1 {
+	 margin:24px 0 16px 0;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 32px; 
+	letter-spacing: 0.15px;
+	}
+
+
+
+
+
+
+
+
+}/*600*/
+
+
+@media screen and (max-width: 599px) {
+
+    .wrapper-structure {
+        /*width: 328px;*/
+        width: 91.115%;
+
+    }
+} /*360*/

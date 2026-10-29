@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Прадукцыя", 
+		"/by/shopper/catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Прэйскурант", 
+		"/by/shopper/pricelist/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дылеры", 
+		"/by/shopper/dealers/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

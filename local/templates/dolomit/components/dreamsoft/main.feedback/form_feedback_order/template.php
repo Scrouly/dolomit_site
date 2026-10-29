@@ -1,0 +1,96 @@
+<?
+if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
+/**
+ * Bitrix vars
+ *
+ * @var array $arParams
+ * @var array $arResult
+ * @var CBitrixComponentTemplate $this
+ * @global CMain $APPLICATION
+ * @global CUser $USER
+ */
+?>
+<div class="mfeedback">
+    <? if (!empty($arResult["ERROR_MESSAGE"])) {
+	 /*foreach ($arResult["ERROR_MESSAGE"] as $v)
+ShowError($v);*/
+}
+    if ($arResult["OK_MESSAGE"] <> '') {
+    ?>     <div class="mf-ok-text"><?= $arResult["OK_MESSAGE"] ?></div><?php } ?>
+
+    <form action="<?= POST_FORM_ACTION_URI ?>" method="POST">
+        <?= bitrix_sessid_post() ?>
+
+
+        <div class="mf-name">
+            <div class="mf-text">
+                <?= GetMessage("MFT_NAME_ORGANIZATION") ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array("NAME_ORGANIZATION", $arParams["REQUIRED_FIELDS"])) : ?><span class="mf-req">*</span><? endif ?>
+            </div>
+            <input type="text" name="name_organization" value="<?= $arResult["NAME_ORGANIZATION"] ?>">
+        </div>
+
+        <div class="mf-name">
+            <div class="mf-text">
+                <?= GetMessage("MFT_QUANTITY") ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array("QUANTITY", $arParams["REQUIRED_FIELDS"])) : ?><span class="mf-req">*</span><? endif ?>
+            </div>
+            <input type="text" name="quantity" value="<?= $arResult["QUANTITY"] ?>">
+        </div>
+
+        <div class="mf-name">
+            <div class="mf-text">
+                <?= GetMessage("MFT_CITY") ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array("CITY", $arParams["REQUIRED_FIELDS"])) : ?><span class="mf-req">*</span><? endif ?>
+            </div>
+            <input type="text" name="city" value="<?= $arResult["CITY"] ?>">
+        </div>
+
+        <div class="mf-name">
+            <div class="mf-text">
+                <?= GetMessage("MFT_NAME") ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array("NAME", $arParams["REQUIRED_FIELDS"])) : ?><span class="mf-req">*</span><? endif ?>
+            </div>
+            <input type="text" name="user_name" value="<?= $arResult["AUTHOR_NAME"] ?>">
+        </div>
+
+        <div class="mf-name">
+            <div class="mf-text">
+                <?= GetMessage("MFT_PRODUCT_TYPE") ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array("PRODUCT_TYPE", $arParams["REQUIRED_FIELDS"])) : ?><span class="mf-req">*</span><? endif ?>
+
+            </div>
+            <input type="text" name="product_type" value="<?= $arResult["PRODUCT_TYPE"] ?>">
+        </div>
+
+        <div class="mf-email">
+            <div class="mf-text">
+                <?= GetMessage("MFT_EMAIL") ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array("EMAIL", $arParams["REQUIRED_FIELDS"])) : ?><span class="mf-req">*</span><? endif ?>
+            </div>
+            <input type="text" name="user_email" value="<?= $arResult["AUTHOR_EMAIL"] ?>">
+        </div>
+
+        
+        <div class="mf-name">
+            <div class="mf-text">
+                <?= GetMessage("MFT_TELEPHONE") ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array("TELEPHONE", $arParams["REQUIRED_FIELDS"])) : ?><span class="mf-req">*</span><? endif ?>
+            </div>
+            <input type="text" name="telephone" value="<?= $arResult["TELEPHONE"] ?>">
+        </div>
+
+
+        <div class="mf-message">
+            <div class="mf-text">
+                <?= GetMessage("MFT_MESSAGE") ?><? if (empty($arParams["REQUIRED_FIELDS"]) || in_array("MESSAGE", $arParams["REQUIRED_FIELDS"])) : ?><span class="mf-req">*</span><? endif ?>
+            </div>
+            <textarea name="MESSAGE" rows="2" cols="40"><?= $arResult["MESSAGE"] ?></textarea>
+        </div>
+
+        <? if ($arParams["USE_CAPTCHA"] == "Y") : ?>
+            <div class="mf-captcha">
+                <div class="mf-text"><?= GetMessage("MFT_CAPTCHA") ?></div>
+                <input type="hidden" name="captcha_sid" value="<?= $arResult["capCode"] ?>">
+                <img src="/bitrix/tools/captcha.php?captcha_sid=<?= $arResult["capCode"] ?>" width="180" height="40" alt="CAPTCHA">
+                <div class="mf-text"><?= GetMessage("MFT_CAPTCHA_CODE") ?><span class="mf-req">*</span></div>
+                <input type="text" name="captcha_word" size="30" maxlength="50" value="">
+            </div>
+        <? endif; ?>
+        <input type="hidden" name="PARAMS_HASH" value="<?= $arResult["PARAMS_HASH"] ?>">
+        <input type="submit" name="submit" value="<?= GetMessage("MFT_SUBMIT") ?>">
+    </form>
+</div>

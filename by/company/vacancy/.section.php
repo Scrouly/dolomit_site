@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Вакансіі";
+$arDirProperties = array(
+
+);
+?>

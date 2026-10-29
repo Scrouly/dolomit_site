@@ -1,0 +1,84 @@
+.prise-list-document{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.prise-list-document a{
+display: flex;
+padding: 8px 16px;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+justify-content: space-between;
+
+color:#FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+
+border-bottom: 2px solid rgba(255, 255, 255, 0.10);
+}
+
+
+.prise-list-document a:hover {
+border-bottom: 2px solid #F90;
+}
+
+
+
+.prise-list-document h6{
+
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; 
+letter-spacing: 0.15px;
+margin-bottom: 10px !important;
+}
+
+@media screen and (max-width: 904px) {
+.prise-list-document h6{
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.15px;
+}
+
+.prise-list-document a{
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+	}
+
+
+}
+@media screen and (max-width: 599px) {
+
+.prise-list-document a{
+padding: 8px 8px;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+letter-spacing: 0.25px;
+	}
+
+
+
+}
+
+

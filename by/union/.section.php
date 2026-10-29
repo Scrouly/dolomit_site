@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Прафсаюз";
+$arDirProperties = array(
+
+);
+?>

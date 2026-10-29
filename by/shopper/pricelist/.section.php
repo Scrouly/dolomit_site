@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Прэйскурант";
+$arDirProperties = Array(
+
+);
+?>

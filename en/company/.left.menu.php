@@ -1,0 +1,75 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?
+$aMenuLinks = Array(
+	Array(
+		"On counteracting corruption", 
+		"corruption/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Union", 
+		"union/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Corporate administration", 
+		"corporate/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Audit report", 
+		"audit/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Informing citizens", 
+		"informing/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Story", 
+		"history/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Dealers", 
+		"dealers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Vacancies", 
+		"vacancy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Shareholders", 
+		"shareholders/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"News", 
+		"news/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

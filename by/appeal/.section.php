@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Звароты";
+$arDirProperties = Array(
+
+);
+?>

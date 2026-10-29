@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Кіраўніцтва";
+$arDirProperties = array(
+
+);
+?>

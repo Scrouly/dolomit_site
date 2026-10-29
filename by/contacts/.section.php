@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Кантакты";
+$arDirProperties = array(
+
+);
+?>

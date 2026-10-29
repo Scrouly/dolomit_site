@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Навіны";
+$arDirProperties = Array(
+
+);
+?>

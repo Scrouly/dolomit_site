@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Профсоюз";
+$arDirProperties = array(
+
+);
+?>

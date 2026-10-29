@@ -1,0 +1,293 @@
+.structure-union{
+    width: 1776px ;
+    margin: 0 auto;
+	display: flex;
+    gap: 32px;
+}
+
+
+h1 {
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 56px;
+}
+
+
+.wrapper-union .ohrana-truda{
+margin: 24px 0 32px 0;
+
+}
+
+.subtitle_1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+
+.tabcontent h3{
+font-family: Inter;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+display: flex;
+}
+
+.reg_document{
+width: 1323px;
+display: flex;
+justify-content: space-between;
+    align-items: center;
+border-bottom: 1px solid #79747E;
+}
+
+.reg_document a{
+width: 1123px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 0px;
+gap: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+
+.reg_document::after {
+    content: url(../dolomit_administrative/images/link-s.svg);
+    position: relative;
+    padding: 0 75px;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+
+
+/*------------------------------------------------------*/
+.structure-company-all{
+	display: flex;
+    gap: 32px;
+    padding: 32px 72px;
+    flex-direction: row;
+    width: fit-content;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  width: 23.78% !important;
+  height: fit-content;
+
+}
+
+
+/* Style the buttons inside the tab */
+.tab button, .tablinks.mobile {
+  display: block;
+  background-color: inherit;
+  width: 100% !important;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+   transition: all 0.5s linear;
+  font-size: 17px;
+  color:#FFFFFF;
+  padding:8px 16px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+
+
+.tab button, .tablinks.mobile {
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+}
+
+
+
+.tab button:hover, .tablinks.mobile:hover {
+  border-bottom: 2px solid #FF9900;
+}
+
+.tab button.active, .tablinks.mobile.active {
+ border-bottom: 2px solid #FF9900;
+}
+
+.tabcontent {
+  width: 76.22% !important;
+  border-left: none;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.compound_union{
+display: flex;
+width: 100%; 
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+
+.compound_union span{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px; 
+letter-spacing: 0.5px;
+}
+.compound_union_img {
+width: 872px;
+height: 500px;
+}
+.tablinks.mobile{
+display:none;
+}
+
+@media screen and (max-width: 1919px) {
+
+.structure-union {
+    width: calc(100% - 125px);
+	}
+
+.compound_union_img {
+width: 632px;
+height: 362px;
+}
+.tabcontent {
+    gap: 24px;
+}
+}
+@media screen and (max-width: 1439px) {
+
+.structure-union {
+ width: calc(100% - 48px);
+ gap: 24px;
+color:#FFF;
+}
+.compound_union_img {
+width: 637px;
+height: 365px;
+}
+
+.compound_union span{
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+letter-spacing: 0.25px;
+}
+
+.tab button {
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.25px;
+}
+
+	h1 {
+font-family: Inter;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+
+}
+
+.tabcontent {
+    gap: 16px;
+}
+
+}
+@media screen and (max-width: 904px) {
+
+.structure-union {
+ width: calc(100% - 48px);
+flex-direction: column;
+}
+
+.tab {
+    width: 100% !important;
+    height: fit-content;
+display:none;
+}
+
+.compound_union_img {
+width: 536px;
+height: 288px;
+}
+
+.tablinks.mobile{
+display:flex;
+}
+.wrapper-union .ohrana-truda {
+    margin: 16px 0 16px 0;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; 
+letter-spacing: 0.15px;
+}
+
+.tab button, .tablinks.mobile {
+padding: 8px;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+letter-spacing: 0.25px;
+}
+.tabcontent h3 {
+    display: none;
+}
+.structure-union {
+    gap: 16px;
+}
+
+.tabcontent {
+    width: 100% !important;
+    gap: 16px;
+}
+
+}
+
+@media screen and (max-width: 599px) {
+.compound_union_img {
+width: 328px;
+height: 228px;
+}
+
+.wrapper-union .ohrana-truda {
+    margin: 28px 0 16px 0;
+}
+
+}

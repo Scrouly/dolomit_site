@@ -1,0 +1,50 @@
+div.mfeedback {}
+div.mf-name, div.mf-email, div.mf-captcha, div.mf-message {width:80%; padding-bottom:0.4em;}
+div.mf-name input, div.mf-email input {width:60%;}
+div.mf-message textarea {width: 60%;}
+span.mf-req {color:red;}
+div.mf-ok-text {color:green; font-weight:bold; padding-bottom: 1em;}
+
+
+/*это затемнение экрана при вызове формы*/
+.modal_background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+color:black;
+}
+/*это контейнер самой формы*/
+.modal_form{
+    background: #ffffff;
+    border-radius: 2px;
+
+    padding: 40px 30px;
+    position: relative;
+   // display: none;
+    max-width: 100%;
+
+
+	width: 1238px;
+	height: 658px;
+
+
+
+
+
+}
+/*это кнопка для закрытия формы*/
+a.close_form{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 5;
+color: black;
+}

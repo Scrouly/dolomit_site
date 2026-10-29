@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Аб прадпрыемстве", 
+		"company/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Пакупнікам", 
+		"shopper/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Прафсаюз", 
+		"union/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Адміністрацыйныя працэдуры", 
+		"administrative-procedure/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Звароты", 
+		"appeal/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Кантакты", 
+		"contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

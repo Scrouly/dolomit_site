@@ -1,0 +1,384 @@
+.text-span-1{
+display: flex;
+flex-direction: column;
+gap: 16px;
+
+}
+.text-span{
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.list {
+margin:0;
+}
+.list li{
+list-style-type: "- ";
+}
+.paragrap_box{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+
+}
+
+.paragrap_one{
+display: flex;
+/*width: 1324px;*/
+width: 100%;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+
+.paragrap_one h6{
+font-size: 24px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0.15px;
+margin:0;
+padding:0;
+}
+
+.one-worker{
+display: flex;
+width: 100%;
+padding: 8px 0px;
+align-items: flex-start;
+border-bottom: 1px solid var(--light-theme-background-outline, #79747E);
+}
+
+
+.one-worker div{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+
+align-self: stretch;
+}
+
+.one-worker .body_1{
+color: rgba(255, 255, 255, 0.50)!important;
+/* Body1 */
+font-size: 16px;
+font-family: Inter;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0.5px;
+}
+
+.subtitle1.margin-24{
+margin-bottom:24px;
+}
+
+.subtitle1 {
+font-size: 22px;
+font-family: Inter;
+line-height: 28px;
+margin:0;
+padding:0;
+
+}
+
+
+.download_document{
+width: 100%;
+display: flex;
+justify-content: space-between;
+    align-items: center;
+border-bottom: 1px solid #79747E;
+}
+.download_document a{
+/*width: 1123px;*/
+width: 84.931%;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 0px;
+gap: 32px;
+
+
+font-family: Inter;
+font-style: normal;
+font-size: 20px;
+font-weight: 300;
+line-height: 28px;
+color: var(--white-opacity-white-100-opacity, #FFF);
+}
+
+.download_document::after {
+    content: url(../dolomit_corruption/images/download.svg);
+    position: relative;
+    padding: 0 82px;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+.reg_document{
+width: 1323px;
+display: flex;
+justify-content: space-between;
+    align-items: center;
+border-bottom: 1px solid #79747E;
+}
+.reg_document a{
+width: 1123px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 0px;
+gap: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+
+.reg_document::after {
+    content: url(../dolomit_administrative/images/link-s.svg);
+    position: relative;
+    padding: 0 75px;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+
+
+/******************************************/
+.tablinks {
+
+font-size: 20px;
+font-family: Inter;
+font-weight: 300;
+line-height: 28px;
+
+}
+
+
+
+.tabcontent h3{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+text-align: start;
+display: flex;
+align-items: center;
+}
+
+.reg_document{
+width: 100%;
+display: flex;
+justify-content: space-between;
+    align-items: center;
+border-bottom: 1px solid #79747E;
+}
+
+.reg_document a{
+/*width: 1123px;*/
+width: 84.931%;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 0px;
+gap: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+
+.reg_document::after {
+    content: url(../dolomit_administrative/images/link-s.svg);
+    position: relative;
+    padding: 0 75px;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+
+
+/*------------------------------------------------------*/
+.structure-corruption-all{
+	display: flex;
+    gap: 32px;
+    flex-direction: row;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  width: 23.78%;
+  height: fit-content;
+
+}
+
+.head_department h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+	color: #FFFFFF;
+	margin:0;
+	padding:0;
+}
+
+
+
+
+.tab button ,.tablinks.mobile {
+  display: block;
+  background-color: inherit;
+  width: 100% !important;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+   transition: all 0.5s linear;
+  color:#FFFFFF;
+  padding:8px 16px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover,.tablinks.mobile:hover {
+
+  border-bottom: 2px solid #FF9900;
+}
+
+
+/* Create an active/current "tab button" class */
+.tab button.active,.tablinks.mobile.active {
+ border-bottom: 2px solid #FF9900;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  width: 74.554%;
+  border-left: none;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+
+.worker_tel::before {
+    content: url(../dolomit_structure/images/call-wb.svg);
+    position: relative;
+    padding: 0 7px 0 0;
+    left: 0;
+    margin: 0;
+}
+
+
+.wrapper-corruption,.structure-corruption-all{
+    width: 1776px;
+    margin: 0 auto;
+}
+.wrapper-corruption h1.corruption-h{
+margin: 24px 0 32px 0; 
+}
+.tablinks.mobile{
+display: none;
+}
+
+@media screen and (max-width: 1919px) {
+
+.wrapper-corruption,.structure-corruption-all{
+  width: calc(100% - 127px);
+color:#FFF;
+}
+
+}
+
+@media screen and (max-width: 1439px) {
+
+.wrapper-corruption,.structure-corruption-all{
+    width: calc(100% - 31px);
+}
+
+
+}
+
+@media screen and (max-width: 904px) {
+
+.wrapper-corruption,.structure-corruption-all{
+    width: calc(100% - 47px);
+	}
+
+.tablinks.desktop{
+display: none;
+}
+.tablinks.mobile{
+display: flex;
+}
+.structure-corruption-all{
+display: flex;
+flex-direction: column;
+gap:0;
+}
+
+.tabcontent{
+ width: 100% ;
+}
+.wrapper-corruption h1.corruption-h {
+    margin: 24px 0 26px 0;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; 
+letter-spacing: 0.15px;
+}
+
+	.tabcontent h3.m{
+display:none;
+}
+
+}
+
+@media screen and (max-width: 599px) {
+.wrapper-corruption,.structure-corruption-all{
+    width: 91.115%;
+}
+}
+

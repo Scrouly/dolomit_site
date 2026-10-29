@@ -1,0 +1,476 @@
+.wrapper-administrative-p,.structure-administrative-p-all{
+    width: 1776px;
+    margin: 0 auto;
+color:#FFF;
+}
+
+.wrapper-administrative-p h1.administrative-p-h{
+    margin: 24px 0 26px 0;
+}
+
+
+
+
+
+.our_company{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+}
+.our_company div{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+}
+
+
+
+
+
+
+.subtitle_1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+
+
+.info_worker_pointer-more{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+}
+
+
+.info_worker_pointer{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 334px;
+
+}
+.phone_point::before{
+
+    content: url(../dolomit_administrative/images/call-wb.svg);
+    position: relative;
+    padding: 0 0px 0 0;
+    left: 0;
+    margin: 0;
+
+}
+
+
+.location_point::before{
+    content: url(../dolomit_administrative/images/location.svg);
+    position: relative;
+    padding: 0 0px 0 0;
+    left: 0;
+    margin: 0;
+}
+
+.location_point,.phone_point{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+}
+
+
+.box_worker_point-info{
+	display: flex;
+    gap: 32px;
+}
+
+.box_worker_point-more{
+	display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.box_worker_point
+{
+	width: 806px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 806px;
+}
+.one_worker_point
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+width: 806px;
+}
+.body_0
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px; 
+}
+.one_worker_point .body_1{
+    color: rgba(255, 255, 255, 0.5) !important;;
+}
+
+
+
+.num_point{
+
+width: 119px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+
+}
+
+.one_block{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 0px;
+gap: 32px;
+
+/*width: 1323px;*/
+width: 100%;
+border-bottom: 1px solid #79747E;
+}
+
+
+
+
+
+.link-pravo div span:nth-child(2) {
+text-align: start;
+width: 1172px;
+}
+
+
+
+.link-pravo div{display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 0px;
+    gap: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+letter-spacing: 0.5px;
+
+border-bottom: 1px solid #79747E;
+
+}
+
+.link-pravo div span:nth-child(1){
+
+width: 119px;
+}
+
+
+.second-header span {
+	font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+
+.tabcontent h3{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+text-align: start;
+display: flex;
+align-items: center;
+}
+
+.reg_document{
+width: 100%;
+display: flex;
+justify-content: space-between;
+    align-items: center;
+border-bottom: 1px solid #79747E;
+}
+.reg_document a{
+width: 1123px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 0px;
+gap: 32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+
+.reg_document::after {
+    content: url(../dolomit_administrative/images/link-s.svg);
+    position: relative;
+    padding: 0 75px;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+
+
+/*------------------------------------------------------*/
+.structure-administrative-p-all{
+	display: flex;
+    gap: 32px;
+    flex-direction: row;
+}
+
+/* Style the tab */
+tab {
+  float: left;
+  width: 23.78%;
+  height: fit-content;
+
+}
+
+.head_department h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+	color: #FFFFFF;
+	margin:0;
+	padding:0;
+}
+
+.tab button ,.tablinks.mobile {
+  display: block;
+  background-color: inherit;
+  width: 100% !important;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+   transition: all 0.5s linear;
+  color:#FFFFFF;
+  padding:8px 16px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+font-size: 17.5px;
+
+}
+
+/* Change background color of buttons on hover */
+
+.tab button:hover,.tablinks.mobile:hover {
+
+  border-bottom: 2px solid #FF9900;
+}
+
+
+/* Create an active/current "tab button" class */
+.tab button.active,.tablinks.mobile.active {
+ border-bottom: 2px solid #FF9900;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  width: 74.554%;
+  border-left: none;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.head_department{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+
+padding: 24px;
+gap: 32px;
+width: 82.75rem;
+
+border: 1px solid #79747E;
+border-radius: 4px;
+margin-bottom:32px;
+}
+
+
+.worker_tel{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+}
+
+.worker_tel::before {
+    content: url(../dolomit_structure/images/call-wb.svg);
+    position: relative;
+    padding: 0 7px 0 0;
+    left: 0;
+    margin: 0;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 8px;
+	width: 82.75rem;
+}
+
+.header-work{
+width: 82.75rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+
+letter-spacing: 0.15px;
+
+}
+.more_worker{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.one_worker{
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid #79747E;
+padding: 0 0 8px 0;
+
+}
+
+.telephone_group{
+display: flex;
+flex-direction: column;
+gap: 4px;
+padding: 0 0 0 17px;
+}
+
+.name_work{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+color: #FFFFFF;
+}
+.tablinks.mobile{
+display: none;
+}
+@media screen and (max-width: 1919px) {
+
+.wrapper-administrative-p,.structure-administrative-p-all{
+  width: calc(100% - 127px);
+color:#FFF;
+}
+
+}
+
+@media screen and (max-width: 1439px) {
+
+.wrapper-administrative-p,.structure-administrative-p-all{
+    width: calc(100% - 31px);
+}
+
+
+}
+
+@media screen and (max-width: 904px) {
+
+.wrapper-administrative-p,.structure-administrative-p-all{
+    width: calc(100% - 47px);
+    }
+
+.tablinks.desktop{
+display: none;
+}
+.tablinks.mobile{
+display: flex;
+}
+.structure-administrative-p-all{
+display: flex;
+flex-direction: column;
+gap:0;
+}
+
+.tabcontent{
+ width: 100% ;
+}
+.wrapper-administrative-p h1.administrative-p-h{
+    margin: 24px 0 26px 0;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; 
+letter-spacing: 0.15px;
+}
+
+.tabcontent h3.m{
+display:none;
+}
+
+}
+
+@media screen and (max-width: 599px) {
+.wrapper-administrative-p,.structure-administrative-p-all{
+    width: 91.115%;
+}
+}
+
+
+
+
+

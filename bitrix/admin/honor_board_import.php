@@ -1,0 +1,1 @@
+<?php require($_SERVER["DOCUMENT_ROOT"] . "/local/admin/honor_board_import.php");
